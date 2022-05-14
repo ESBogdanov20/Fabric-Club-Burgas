@@ -799,6 +799,35 @@ void main()
 									PVSP.display();
 								}
 
+                                if (aevent.key.code == Keyboard::H)
+								{
+									card1.setFillColor(Color::White);
+									card3.setFillColor(Color::White);
+									card4.setFillColor(Color::White);
+									card5.setFillColor(Color::White);
+
+									flagH = true;
+									flagG = false;
+									flagJ = false;
+									flagK = false;
+									flagL = false;
+
+									PVSP.draw(card1);
+									PVSP.draw(card3);
+									PVSP.draw(card4);
+									PVSP.draw(card5);
+
+									card2.setFont(font);
+									card2.setFillColor(Color::Magenta);
+									card2.setString("H)");
+									card2.setCharacterSize(40);
+									card2.setStyle(Text::Bold);
+									card2.setPosition(1720, 285);
+
+									PVSP.draw(card2);
+									PVSP.display();
+								}
+
 							}
 							PVSC.close();
 							PVSP.clear();
