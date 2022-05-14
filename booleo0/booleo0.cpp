@@ -828,6 +828,35 @@ void main()
 									PVSP.display();
 								}
 
+                                if (aevent.key.code == Keyboard::J)
+								{
+									card1.setFillColor(Color::White);
+									card2.setFillColor(Color::White);
+									card4.setFillColor(Color::White);
+									card5.setFillColor(Color::White);
+
+									flagJ = true;
+									flagG = false;
+									flagH = false;
+									flagK = false;
+									flagL = false;
+
+									PVSP.draw(card1);
+									PVSP.draw(card2);
+									PVSP.draw(card5);
+									PVSP.draw(card4);
+
+									card3.setFont(font);
+									card3.setFillColor(Color::Magenta);
+									card3.setString("J)");
+									card3.setCharacterSize(40);
+									card3.setStyle(Text::Bold);
+									card3.setPosition(1720, 470);
+
+									PVSP.draw(card3);
+									PVSP.display();
+								}
+
 							}
 							PVSC.close();
 							PVSP.clear();
