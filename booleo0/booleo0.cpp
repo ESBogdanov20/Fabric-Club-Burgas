@@ -886,6 +886,35 @@ void main()
 									PVSP.display();
 								}
 
+                                if (aevent.key.code == Keyboard::L)
+								{
+									card1.setFillColor(Color::White);
+									card2.setFillColor(Color::White);
+									card3.setFillColor(Color::White);
+									card4.setFillColor(Color::White);
+
+									flagL = true;
+									flagG = false;
+									flagH = false;
+									flagJ = false;
+									flagK = false;
+
+									PVSP.draw(card1);
+									PVSP.draw(card2);
+									PVSP.draw(card3);
+									PVSP.draw(card4);
+
+									card5.setFont(font);
+									card5.setFillColor(Color::Magenta);
+									card5.setString("L)");
+									card5.setCharacterSize(40);
+									card5.setStyle(Text::Bold);
+									card5.setPosition(1720, 840);
+
+									PVSP.draw(card5);
+									PVSP.display();
+								}
+
 							}
 							PVSC.close();
 							PVSP.clear();
