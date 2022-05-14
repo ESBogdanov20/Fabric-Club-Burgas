@@ -473,6 +473,96 @@ void main()
 									{
 										PVSP.close();
 									}
+
+                                    card1.setFont(font);
+									card1.setFillColor(Color::White);
+									card1.setString("G)");
+									card1.setCharacterSize(40);
+									card1.setStyle(Text::Bold);
+									card1.setPosition(1720, 100);
+
+									card2.setFont(font);
+									card2.setFillColor(Color::White);
+									card2.setString("H)");
+									card2.setCharacterSize(40);
+									card2.setStyle(Text::Bold);
+									card2.setPosition(1720, 285);
+
+									card3.setFont(font);
+									card3.setFillColor(Color::White);
+									card3.setString("J)");
+									card3.setCharacterSize(40);
+									card3.setStyle(Text::Bold);
+									card3.setPosition(1720, 470);
+
+									card4.setFont(font);
+									card4.setFillColor(Color::White);
+									card4.setString("K)");
+									card4.setCharacterSize(40);
+									card4.setStyle(Text::Bold);
+									card4.setPosition(1720, 655);
+
+									card5.setFont(font);
+									card5.setFillColor(Color::White);
+									card5.setString("L)");
+									card5.setCharacterSize(40);
+									card5.setStyle(Text::Bold);
+									card5.setPosition(1720, 840);
+
+									PVSP.clear(Color(32, 120, 17));
+									if (array[0] == 0)
+									{
+										PVSP.draw(firstCard);
+									}
+									else
+									{
+										PVSP.draw(secondCard);
+									}
+
+									if (array[1] == 0)
+									{
+										PVSP.draw(first2Card);
+									}
+									else
+									{
+										PVSP.draw(second2Card);
+									}
+
+									if (array[2] == 0)
+									{
+										PVSP.draw(first3Card);
+									}
+									else
+									{
+										PVSP.draw(second3Card);
+									}
+
+									if (array[3] == 0)
+									{
+										PVSP.draw(first4Card);
+									}
+									else
+									{
+										PVSP.draw(second4Card);
+									}
+
+									if (array[4] == 0)
+									{
+										PVSP.draw(first5Card);
+									}
+									else
+									{
+										PVSP.draw(second5Card);
+									}
+
+									if (array[5] == 0)
+									{
+										PVSP.draw(first6Card);
+									}
+									else
+									{
+										PVSP.draw(second6Card);
+									}
 								}
 							}
 							PVSC.close();
