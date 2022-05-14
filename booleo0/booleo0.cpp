@@ -3370,6 +3370,189 @@ void main()
 									PVSP.display();
 								}
 
+                                if (flag1 || flag2 || flag3 || flag4 || flag5)
+								{
+
+									and_0.setPosition(1795, 50);
+									and_1.setPosition(1795, 50);
+									xor_0.setPosition(1795, 50);
+									xor_1.setPosition(1795, 50);
+									or_0.setPosition(1795, 50);
+									or_1.setPosition(1795, 50);
+
+									if (secondArr[0] == 6)
+									{
+										PVSP.draw(and_0);
+									}
+									else if (secondArr[0] == 5)
+									{
+										PVSP.draw(and_1);
+									}
+									else if (secondArr[0] == 4)
+									{
+										PVSP.draw(xor_0);
+									}
+									else if (secondArr[0] == 3)
+									{
+										PVSP.draw(xor_1);
+									}
+									else if (secondArr[0] == 2)
+									{
+										PVSP.draw(or_0);
+									}
+									else if (secondArr[0] == 1)
+									{
+										PVSP.draw(or_1);
+									}
+
+									Vector2f newPosition(1795, 235);
+
+									and_0.setPosition(newPosition);
+									and_1.setPosition(newPosition);
+									xor_0.setPosition(newPosition);
+									xor_1.setPosition(newPosition);
+									or_0.setPosition(newPosition);
+									or_1.setPosition(newPosition);
+
+									if (secondArr[1] == 6)
+									{
+										PVSP.draw(and_0);
+									}
+									else if (secondArr[1] == 5)
+									{
+										PVSP.draw(and_1);
+									}
+									else if (secondArr[1] == 4)
+									{
+										PVSP.draw(xor_0);
+									}
+									else if (secondArr[1] == 3)
+									{
+										PVSP.draw(xor_1);
+									}
+									else if (secondArr[1] == 2)
+									{
+										PVSP.draw(or_0);
+									}
+									else if (secondArr[1] == 1)
+									{
+										PVSP.draw(or_1);
+									}
+
+									Vector2f secondNewPosition(1795, 420);
+
+									and_0.setPosition(secondNewPosition);
+									and_1.setPosition(secondNewPosition);
+									xor_0.setPosition(secondNewPosition);
+									xor_1.setPosition(secondNewPosition);
+									or_0.setPosition(secondNewPosition);
+									or_1.setPosition(secondNewPosition);
+
+									if (secondArr[2] == 6)
+									{
+										PVSP.draw(and_0);
+									}
+									else if (secondArr[2] == 5)
+									{
+										PVSP.draw(and_1);
+									}
+									else if (secondArr[2] == 4)
+									{
+										PVSP.draw(xor_0);
+									}
+									else if (secondArr[2] == 3)
+									{
+										PVSP.draw(xor_1);
+									}
+									else if (secondArr[2] == 2)
+									{
+										PVSP.draw(or_0);
+									}
+									else if (secondArr[2] == 1)
+									{
+										PVSP.draw(or_1);
+									}
+
+									Vector2f thirdNewPosition(1795, 605);
+
+									and_0.setPosition(thirdNewPosition);
+									and_1.setPosition(thirdNewPosition);
+									xor_0.setPosition(thirdNewPosition);
+									xor_1.setPosition(thirdNewPosition);
+									or_0.setPosition(thirdNewPosition);
+									or_1.setPosition(thirdNewPosition);
+
+									if (secondArr[3] == 6)
+									{
+										PVSP.draw(and_0);
+									}
+									else if (secondArr[3] == 5)
+									{
+										PVSP.draw(and_1);
+									}
+									else if (secondArr[3] == 4)
+									{
+										PVSP.draw(xor_0);
+									}
+									else if (secondArr[3] == 3)
+									{
+										PVSP.draw(xor_1);
+									}
+									else if (secondArr[3] == 2)
+									{
+										PVSP.draw(or_0);
+									}
+									else if (secondArr[3] == 1)
+									{
+										PVSP.draw(or_1);
+									}
+
+									Vector2f fourtNewPosition(1795, 790);
+
+									and_0.setPosition(fourtNewPosition);
+									and_1.setPosition(fourtNewPosition);
+									xor_0.setPosition(fourtNewPosition);
+									xor_1.setPosition(fourtNewPosition);
+									or_0.setPosition(fourtNewPosition);
+									or_1.setPosition(fourtNewPosition);
+
+									if (secondArr[4] == 6)
+									{
+										PVSP.draw(and_0);
+									}
+									else if (secondArr[4] == 5)
+									{
+										PVSP.draw(and_1);
+									}
+									else if (secondArr[4] == 4)
+									{
+										PVSP.draw(xor_0);
+									}
+									else if (secondArr[4] == 3)
+									{
+										PVSP.draw(xor_1);
+									}
+									else if (secondArr[4] == 2)
+									{
+										PVSP.draw(or_0);
+									}
+									else if (secondArr[4] == 1)
+									{
+										PVSP.draw(or_1);
+									}
+
+									black_screen.setPosition(player_blackScreen);
+
+									PVSP.draw(black_screen);
+									PVSP.draw(player2);
+
+									flag1 = false;
+									flag2 = false;
+									flag3 = false;
+									flag4 = false;
+									flag5 = false;
+								}
+
 							}
 							PVSC.close();
 							PVSP.clear();
