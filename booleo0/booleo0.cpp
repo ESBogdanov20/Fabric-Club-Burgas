@@ -563,6 +563,210 @@ void main()
 									{
 										PVSP.draw(second6Card);
 									}
+
+                                    fp_and_0.setPosition(1795, 50);
+									fp_and_1.setPosition(1795, 50);
+									fp_xor_0.setPosition(1795, 50);
+									fp_xor_1.setPosition(1795, 50);
+									fp_or_0.setPosition(1795, 50);
+									fp_or_1.setPosition(1795, 50);
+
+									if (arr[0] == 1)
+									{
+										PVSP.draw(fp_and_0);
+									}
+									else if (arr[0] == 2)
+									{
+										PVSP.draw(fp_and_1);
+									}
+									else if (arr[0] == 3)
+									{
+										PVSP.draw(fp_xor_0);
+									}
+									else if (arr[0] == 4)
+									{
+										PVSP.draw(fp_xor_1);
+									}
+									else if (arr[0] == 5)
+									{
+										PVSP.draw(fp_or_0);
+									}
+									else if (arr[0] == 6)
+									{
+										PVSP.draw(fp_or_1);
+									}
+
+									Vector2f newPosition(1795, 235);
+
+									fp_and_0.setPosition(newPosition);
+									fp_and_1.setPosition(newPosition);
+									fp_xor_0.setPosition(newPosition);
+									fp_xor_1.setPosition(newPosition);
+									fp_or_0.setPosition(newPosition);
+									fp_or_1.setPosition(newPosition);
+
+									if (arr[1] == 1)
+									{
+										PVSP.draw(fp_and_0);
+									}
+									else if (arr[1] == 2)
+									{
+										PVSP.draw(fp_and_1);
+									}
+									else if (arr[1] == 3)
+									{
+										PVSP.draw(fp_xor_0);
+									}
+									else if (arr[1] == 4)
+									{
+										PVSP.draw(fp_xor_1);
+									}
+									else if (arr[1] == 5)
+									{
+										PVSP.draw(fp_or_0);
+									}
+									else if (arr[1] == 6)
+									{
+										PVSP.draw(fp_or_1);
+									}
+
+									Vector2f secondNewPosition(1795, 420);
+
+									fp_and_0.setPosition(secondNewPosition);
+									fp_and_1.setPosition(secondNewPosition);
+									fp_xor_0.setPosition(secondNewPosition);
+									fp_xor_1.setPosition(secondNewPosition);
+									fp_or_0.setPosition(secondNewPosition);
+									fp_or_1.setPosition(secondNewPosition);
+
+									if (arr[2] == 1)
+									{
+										PVSP.draw(fp_and_0);
+									}
+									else if (arr[2] == 2)
+									{
+										PVSP.draw(fp_and_1);
+									}
+									else if (arr[2] == 3)
+									{
+										PVSP.draw(fp_xor_0);
+									}
+									else if (arr[2] == 4)
+									{
+										PVSP.draw(fp_xor_1);
+									}
+									else if (arr[2] == 5)
+									{
+										PVSP.draw(fp_or_0);
+									}
+									else if (arr[2] == 6)
+									{
+										PVSP.draw(fp_or_1);
+									}
+
+									Vector2f thirdNewPosition(1795, 605);
+
+									fp_and_0.setPosition(thirdNewPosition);
+									fp_and_1.setPosition(thirdNewPosition);
+									fp_xor_0.setPosition(thirdNewPosition);
+									fp_xor_1.setPosition(thirdNewPosition);
+									fp_or_0.setPosition(thirdNewPosition);
+									fp_or_1.setPosition(thirdNewPosition);
+
+									if (arr[3] == 1)
+									{
+										PVSP.draw(fp_and_0);
+									}
+									else if (arr[3] == 2)
+									{
+										PVSP.draw(fp_and_1);
+									}
+									else if (arr[3] == 3)
+									{
+										PVSP.draw(fp_xor_0);
+									}
+									else if (arr[3] == 4)
+									{
+										PVSP.draw(fp_xor_1);
+									}
+									else if (arr[3] == 5)
+									{
+										PVSP.draw(fp_or_0);
+									}
+									else if (arr[3] == 6)
+									{
+										PVSP.draw(fp_or_1);
+									}
+
+									Vector2f fourtNewPosition(1795, 790);
+
+									fp_and_0.setPosition(fourtNewPosition);
+									fp_and_1.setPosition(fourtNewPosition);
+									fp_xor_0.setPosition(fourtNewPosition);
+									fp_xor_1.setPosition(fourtNewPosition);
+									fp_or_0.setPosition(fourtNewPosition);
+									fp_or_1.setPosition(fourtNewPosition);
+
+									if (arr[4] == 1)
+									{
+										PVSP.draw(fp_and_0);
+									}
+									else if (arr[4] == 2)
+									{
+										PVSP.draw(fp_and_1);
+									}
+									else if (arr[4] == 3)
+									{
+										PVSP.draw(fp_xor_0);
+									}
+									else if (arr[4] == 4)
+									{
+										PVSP.draw(fp_xor_1);
+									}
+									else if (arr[4] == 5)
+									{
+										PVSP.draw(fp_or_0);
+									}
+									else if (arr[4] == 6)
+									{
+										PVSP.draw(fp_or_1);
+									}
+
+									PVSP.draw(line, 2, Lines);
+
+									PVSP.draw(card1);
+									PVSP.draw(card2);
+									PVSP.draw(card3);
+									PVSP.draw(card4);
+									PVSP.draw(card5);
+
+									PVSP.draw(player1);
+
+									PVSP.draw(fp_FirstCardHolder);
+									PVSP.draw(fp_SecondCardHolder);
+									PVSP.draw(fp_ThirdCardHolder);
+									PVSP.draw(fp_FourthCardHolder);
+									PVSP.draw(fp_FifthCardHolder);
+
+									PVSP.draw(fp_firstCardPlacement);
+									PVSP.draw(fp_secondCardPlacement);
+									PVSP.draw(fp_thirdCardPlacement);
+									PVSP.draw(fp_fourthCardPlacement);
+									PVSP.draw(fp_fifthCardPlacement);
+
+									PVSP.draw(sp_FirstCardHolder);
+									PVSP.draw(sp_SecondCardHolder);
+									PVSP.draw(sp_ThirdCardHolder);
+									PVSP.draw(sp_FourthCardHolder);
+									PVSP.draw(sp_FifthCardHolder);
+
+									PVSP.draw(sp_firstCardPlacement);
+									PVSP.draw(sp_secondCardPlacement);
+									PVSP.draw(sp_thirdCardPlacement);
+									PVSP.draw(sp_fourthCardPlacement);
+									PVSP.draw(sp_fifthCardPlacement);
+
+									PVSP.display();
 								}
 							}
 							PVSC.close();
