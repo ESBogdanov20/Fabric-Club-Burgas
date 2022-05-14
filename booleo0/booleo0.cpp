@@ -768,6 +768,37 @@ void main()
 
 									PVSP.display();
 								}
+
+                                
+								if (aevent.key.code == Keyboard::G)
+								{
+									flagG = true;
+									flagH = false;
+									flagJ = false;
+									flagK = false;
+									flagL = false;
+
+									card2.setFillColor(Color::White);
+									card3.setFillColor(Color::White);
+									card4.setFillColor(Color::White);
+									card5.setFillColor(Color::White);
+
+									PVSP.draw(card2);
+									PVSP.draw(card3);
+									PVSP.draw(card4);
+									PVSP.draw(card5);
+
+									card1.setFont(font);
+									card1.setFillColor(Color::Magenta);
+									card1.setString("G)");
+									card1.setCharacterSize(40);
+									card1.setStyle(Text::Bold);
+									card1.setPosition(1720, 100);
+
+									PVSP.draw(card1);
+									PVSP.display();
+								}
+
 							}
 							PVSC.close();
 							PVSP.clear();
