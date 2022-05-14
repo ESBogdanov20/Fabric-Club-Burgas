@@ -1406,6 +1406,497 @@ void main()
 									PVSP.display();
 								}
 
+                                if (aevent.key.code == Keyboard::Num2)
+								{
+									if (arr[0] == 1 && array[1] == 0 && array[2] == 0 && flagG)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[0] == 1 && array[1] == 1 && array[2] == 0 && flagG)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[0] == 1 && array[1] == 0 && array[2] == 1 && flagG)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[0] == 2 && array[1] == 1 && array[2] == 1 && flagG)
+									{
+										fp_and_1.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_1);
+
+									}
+									else if (arr[0] == 3 && array[1] == 0 && array[2] == 0 && flagG)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(xor_0);
+
+									}
+									else if (arr[0] == 3 && array[1] == 1 && array[2] == 1 && flagG)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[0] == 4 && array[1] == 0 && array[2] == 1 && flagG)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[0] == 4 && array[1] == 1 && array[2] == 0 && flagG)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[0] == 5 && array[1] == 0 && array[2] == 0 && flagG)
+									{
+										fp_or_0.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_0);
+
+									}
+									else if (arr[0] == 6 && array[1] == 0 && array[2] == 1 && flagG)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[0] == 6 && array[1] == 1 && array[2] == 1 && flagG)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[0] == 6 && array[1] == 1 && array[2] == 0 && flagG)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(g_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[1] == 1 && array[1] == 0 && array[2] == 0 && flagH)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[1] == 1 && array[1] == 1 && array[2] == 0 && flagH)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[1] == 1 && array[1] == 0 && array[2] == 1 && flagH)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[1] == 2 && array[1] == 1 && array[2] == 1 && flagH)
+									{
+										fp_and_1.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_1);
+
+									}
+									else if (arr[1] == 3 && array[1] == 0 && array[2] == 0 && flagH)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[1] == 3 && array[1] == 1 && array[2] == 1 && flagH)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[1] == 4 && array[1] == 0 && array[2] == 1 && flagH)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[1] == 4 && array[1] == 1 && array[2] == 0 && flagH)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[1] == 5 && array[1] == 0 && array[2] == 0 && flagH)
+									{
+										fp_or_0.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_0);
+
+									}
+									else if (arr[1] == 6 && array[1] == 0 && array[2] == 1 && flagH)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[1] == 6 && array[1] == 1 && array[2] == 1 && flagH)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[1] == 6 && array[1] == 1 && array[2] == 0 && flagH)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(h_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[2] == 1 && array[1] == 0 && array[2] == 0 && flagJ)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[2] == 1 && array[1] == 1 && array[2] == 0 && flagJ)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag1 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[2] == 1 && array[1] == 0 && array[2] == 1 && flagJ)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[2] == 2 && array[1] == 1 && array[2] == 1 && flagJ)
+									{
+										fp_and_1.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag1 = true;
+										PVSP.draw(fp_and_1);
+
+									}
+									else if (arr[2] == 3 && array[1] == 0 && array[2] == 0 && flagJ)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[2] == 3 && array[1] == 1 && array[2] == 1 && flagJ)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag1 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[2] == 4 && array[1] == 0 && array[2] == 1 && flagJ)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[2] == 4 && array[1] == 1 && array[2] == 0 && flagJ)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[2] == 5 && array[1] == 0 && array[2] == 0 && flagJ)
+									{
+										fp_or_0.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_0);
+
+									}
+									else if (arr[2] == 6 && array[1] == 0 && array[2] == 1 && flagJ)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[2] == 6 && array[1] == 1 && array[2] == 1 && flagJ)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[2] == 6 && array[1] == 1 && array[2] == 0 && flagJ)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(j_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[3] == 1 && array[1] == 0 && array[2] == 0 && flagK)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[3] == 1 && array[1] == 1 && array[2] == 0 && flagK)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[3] == 1 && array[1] == 0 && array[2] == 1 && flagK)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[3] == 2 && array[1] == 1 && array[2] == 1 && flagK)
+									{
+										fp_and_1.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_1);
+
+									}
+									else if (arr[3] == 3 && array[1] == 0 && array[2] == 0 && flagK)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[3] == 3 && array[1] == 1 && array[2] == 1 && flagK)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[3] == 4 && array[1] == 0 && array[2] == 1 && flagK)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[3] == 4 && array[1] == 1 && array[2] == 0 && flagK)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[3] == 5 && array[1] == 0 && array[2] == 0 && flagK)
+									{
+										fp_or_0.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_0);
+
+									}
+									else if (arr[3] == 6 && array[1] == 0 && array[2] == 1 && flagK)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[3] == 6 && array[1] == 1 && array[2] == 1 && flagK)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[3] == 6 && array[1] == 1 && array[2] == 0 && flagK)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(k_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[4] == 1 && array[1] == 0 && array[2] == 0 && flagL)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[4] == 1 && array[1] == 1 && array[2] == 0 && flagL)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[4] == 1 && array[1] == 0 && array[2] == 1 && flagL)
+									{
+										fp_and_0.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_0);
+
+									}
+									else if (arr[4] == 2 && array[1] == 1 && array[2] == 1 && flagL)
+									{
+										fp_and_1.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_and_1);
+
+									}
+									else if (arr[4] == 3 && array[1] == 0 && array[2] == 0 && flagL)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[4] == 3 && array[1] == 1 && array[2] == 1 && flagL)
+									{
+										fp_xor_0.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_0);
+
+									}
+									else if (arr[4] == 4 && array[1] == 0 && array[2] == 1 && flagL)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[4] == 4 && array[1] == 1 && array[2] == 0 && flagL)
+									{
+										fp_xor_1.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+
+										PVSP.draw(fp_xor_1);
+
+									}
+									else if (arr[4] == 5 && array[1] == 0 && array[2] == 0 && flagL)
+									{
+										fp_or_0.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_0);
+
+									}
+									else if (arr[4] == 6 && array[1] == 0 && array[2] == 1 && flagL)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[4] == 6 && array[1] == 1 && array[2] == 1 && flagL)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else if (arr[4] == 6 && array[1] == 1 && array[2] == 0 && flagL)
+									{
+										fp_or_1.setPosition(f2_position);
+										black_screen.setPosition(l_blackScreen);
+										flag2 = true;
+										PVSP.draw(fp_or_1);
+
+									}
+									else
+									{
+										invalid.setPosition(invalid_position);
+										PVSP.draw(invalid);
+									}
+
+									PVSP.display();
+								}
+
 							}
 							PVSC.close();
 							PVSP.clear();
