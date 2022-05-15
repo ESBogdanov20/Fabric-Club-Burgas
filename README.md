@@ -8,7 +8,7 @@
   
 ## Hello, We are Fabric
 
-Our game is about Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor non dolor in gravida. Donec hendrerit eget mauris in dapibus. Suspendisse malesuada vulputate bibendum. Aliquam dui nibh, luctus a auctor ut, consequat sit amet.🎮🎮
+Our game is a strategy card game using boolean logic gates. It was developed by Jonathan Brandt and Chris Kampf with Sean P. Dennis in 2008, and it was first published by Tessera Games LLC in 2009.🎮🎮
 
 ---
  
