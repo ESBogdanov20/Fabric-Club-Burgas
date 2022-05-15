@@ -58,4 +58,4 @@ Memory: 512 MB
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" width="20"> Excel
 ---
 
-# If you like our game you can star us!⭐;
+# If you like our game you can star us!⭐
