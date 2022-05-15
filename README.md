@@ -54,6 +54,8 @@ Memory: 512 MB
 - <img src="https://media.discordapp.net/attachments/815253581149896790/818136011359518780/kisspng-microsoft-powerpoint-computer-software-microsoft-o-5b3b3927c75c49.3318087715306079118166-rem.png" width="20"> PowerPoint
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" width="20"> C++
 - <img src="https://logos-world.net/wp-content/uploads/2021/04/Microsoft-Teams-Logo.png" width="20"> Teams
+- <img src="https://cdn.freebiesupply.com/logos/large/2x/figma-1-logo-png-transparent.png" width="20"> Figma
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" width="20"> Excel
 ---
 
 # If you like our game you can star us!⭐;
