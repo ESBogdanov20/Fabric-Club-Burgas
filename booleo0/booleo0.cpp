@@ -8,6 +8,7 @@
 using namespace sf;
 using namespace std;
 
+// global variables
 bool flagG = false;
 bool flagH = false;
 bool flagJ = false;
@@ -22,6 +23,7 @@ bool flag5 = false;
 
 void main()
 {
+	// creating main window
     RenderWindow MENU(VideoMode(1920, 1080), "Main Menu", Style::Fullscreen);
 	MainMenu mainMenu(MENU.getSize().x, MENU.getSize().y);
 
@@ -51,6 +53,7 @@ void main()
 		cout << "font error";
 	}
 
+	// setting positions
 	Vector2f f1_position(595, 109);
 	Vector2f f2_position(595, 289);
 	Vector2f f3_position(595, 469);
@@ -67,6 +70,7 @@ void main()
 
 	Vector2f player_blackScreen(1795, 990);
 
+	// creating rectangles
 	RectangleShape black_screen(Vector2f(110, 161));
 	RectangleShape black2_screen(Vector2f(100, 700));
 
@@ -95,6 +99,7 @@ void main()
 	Text sp_fourthCardPlacement;
 	Text sp_fifthCardPlacement;
 
+	// editing rectangles
 	black_screen.setFillColor(Color(32, 120, 17));
 	black2_screen.setFillColor(Color(32, 120, 17));
 
@@ -149,6 +154,7 @@ void main()
 	sp_FifthCardHolder.setOutlineColor(Color::White);
 	sp_FifthCardHolder.setOutlineThickness(5);
 
+	// editing text
 	fp_firstCardPlacement.setFont(font);
 	fp_firstCardPlacement.setFillColor(Color::White);
 	fp_firstCardPlacement.setString("1");
@@ -297,6 +303,7 @@ void main()
 	texture.loadFromFile("booleo01.png");
 	secondTexture.loadFromFile("booleo10.png");
 
+	// loading pictures
 	and0.loadFromFile("and0.png");
 	and1.loadFromFile("and1.png");
 	xor0.loadFromFile("xor0.png");
@@ -390,6 +397,7 @@ void main()
 
 	int array[6];
 
+	// random numbers
 	srand(time(NULL));
 	for (int i = 0; i < 6; i++)
 	{
@@ -432,18 +440,19 @@ void main()
 			
 			if (event.type == Event::KeyReleased)
 			{
-				if (event.key.code == Keyboard::Up)
+				if (event.key.code == Keyboard::Up) // arrow key up
 				{
 					mainMenu.MoveUp();
 					break;
 				}
-				if (event.key.code == Keyboard::Down)
+				if (event.key.code == Keyboard::Down) // arrow key down
 				{
 					mainMenu.MoveDown();
 					break;
 				}
 				if (event.key.code == Keyboard::Return)
 				{
+					// creating other windows
 					RenderWindow PVSP(VideoMode(1920, 1080), "Person vs. Person", Style::Fullscreen);
 					MainMenu gameMenu(PVSP.getSize().x, PVSP.getSize().y);
 					RenderWindow PVSC(VideoMode(1920, 1080), "Person vs. Computer", Style::Fullscreen);
@@ -469,7 +478,7 @@ void main()
 								}
 								if (aevent.type == Event::KeyPressed)
 								{
-									if (aevent.key.code == Keyboard::Escape)
+									if (aevent.key.code == Keyboard::Escape) // window close when escape is pressed
 									{
 										PVSP.close();
 									}
@@ -509,7 +518,7 @@ void main()
 									card5.setStyle(Text::Bold);
 									card5.setPosition(1720, 840);
 
-									PVSP.clear(Color(32, 120, 17));
+									PVSP.clear(Color(32, 120, 17)); // giving green color to the background
 									if (array[0] == 0)
 									{
 										PVSP.draw(firstCard);
@@ -564,13 +573,14 @@ void main()
 										PVSP.draw(second6Card);
 									}
 
+									// first card in first player deck
                                     fp_and_0.setPosition(1795, 50);
 									fp_and_1.setPosition(1795, 50);
 									fp_xor_0.setPosition(1795, 50);
 									fp_xor_1.setPosition(1795, 50);
 									fp_or_0.setPosition(1795, 50);
 									fp_or_1.setPosition(1795, 50);
-
+		
 									if (arr[0] == 1)
 									{
 										PVSP.draw(fp_and_0);
@@ -598,6 +608,7 @@ void main()
 
 									Vector2f newPosition(1795, 235);
 
+									// second card in first player deck
 									fp_and_0.setPosition(newPosition);
 									fp_and_1.setPosition(newPosition);
 									fp_xor_0.setPosition(newPosition);
@@ -632,6 +643,7 @@ void main()
 
 									Vector2f secondNewPosition(1795, 420);
 
+									// third card in first player deck
 									fp_and_0.setPosition(secondNewPosition);
 									fp_and_1.setPosition(secondNewPosition);
 									fp_xor_0.setPosition(secondNewPosition);
@@ -665,7 +677,7 @@ void main()
 									}
 
 									Vector2f thirdNewPosition(1795, 605);
-
+									// fourth card in first player deck
 									fp_and_0.setPosition(thirdNewPosition);
 									fp_and_1.setPosition(thirdNewPosition);
 									fp_xor_0.setPosition(thirdNewPosition);
@@ -700,6 +712,7 @@ void main()
 
 									Vector2f fourtNewPosition(1795, 790);
 
+									// fifth first card in first player deck
 									fp_and_0.setPosition(fourtNewPosition);
 									fp_and_1.setPosition(fourtNewPosition);
 									fp_xor_0.setPosition(fourtNewPosition);
@@ -769,7 +782,7 @@ void main()
 									PVSP.display();
 								}
 
-                                
+                                // checking if G key is pressed
 								if (aevent.key.code == Keyboard::G)
 								{
 									flagG = true;
@@ -799,6 +812,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if H key is pressed
                                 if (aevent.key.code == Keyboard::H)
 								{
 									card1.setFillColor(Color::White);
@@ -828,6 +842,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if J key is pressed
                                 if (aevent.key.code == Keyboard::J)
 								{
 									card1.setFillColor(Color::White);
@@ -857,6 +872,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if K key is pressed
                                 if (aevent.key.code == Keyboard::K)
 								{
 									card1.setFillColor(Color::White);
@@ -886,6 +902,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if L key is pressed
                                 if (aevent.key.code == Keyboard::L)
 								{
 									card1.setFillColor(Color::White);
@@ -915,6 +932,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if 1 is pressed
                                 if (aevent.key.code == Keyboard::Num1)
 								{
 									if (arr[0] == 1 && array[0] == 0 && array[1] == 0 && flagG)
@@ -1406,6 +1424,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if 2 is pressed
                                 if (aevent.key.code == Keyboard::Num2)
 								{
 									if (arr[0] == 1 && array[1] == 0 && array[2] == 0 && flagG)
@@ -1897,7 +1916,8 @@ void main()
 									PVSP.display();
 								}
 
-                                	if (aevent.key.code == Keyboard::Num3)
+								// checking if 3 is pressed
+                                if (aevent.key.code == Keyboard::Num3)
 								{
 									if (arr[0] == 1 && array[2] == 0 && array[3] == 0 && flagG)
 									{
@@ -2388,6 +2408,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if 4 is pressed
                                 if (aevent.key.code == Keyboard::Num4)
 								{
 									if (arr[0] == 1 && array[3] == 0 && array[4] == 0 && flagG)
@@ -2879,6 +2900,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking if 5 is pressed
                                 if (aevent.key.code == Keyboard::Num5)
 								{
 									if (arr[0] == 1 && array[4] == 0 && array[5] == 0 && flagG)
@@ -3370,6 +3392,7 @@ void main()
 									PVSP.display();
 								}
 
+								// checking flags
                                 if (flag1 || flag2 || flag3 || flag4 || flag5)
 								{
 
