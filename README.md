@@ -3,7 +3,7 @@
 
 
 <p align="center">
-<img src="https://o.remove.bg/downloads/c8e09d46-299b-4ea2-97ed-2acd174a9721/unknown-removebg-preview.png" width="750">
+<img src="https://media.discordapp.net/attachments/969704146095706132/975414947968348260/unknown.png" width="750">
 </p>
   
 ## Hello, We are Fabric
